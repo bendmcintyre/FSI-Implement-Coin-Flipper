@@ -9,7 +9,7 @@ let total = heads + tails;
 document.querySelector("#flip").addEventListener("click", function () {
   let randomChance = Math.random();
 
-  if (randomChance < 0.49) {
+  if (randomChance < 0.495) {
     //You fipped tails
     document.querySelector("#penny-image").src =
       "./assets/images/penny-tails.jpg";
